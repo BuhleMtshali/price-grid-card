@@ -1,10 +1,12 @@
 body {
   background-color: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
 }
 .container {
   margin-left: auto;
   margin-right: auto;
   max-width: 600px;
+  margin-top: 60px;
 }
 .mid-container {
   display: grid;
@@ -13,4 +15,57 @@ body {
 ul {
   list-style-type: none;
   padding-left: 0;
+}
+.top-part {
+  background-color: white;
+  padding: 25px;
+}
+.left {
+  background-color: #2bb4b1;
+  padding: 25px;
+}
+.right {
+  background-color: #49bebd;
+  padding: 25px;
+}
+.text {
+  margin-bottom: 0;
+  color: hsl(218, 22%, 67%);
+  font-size: 15px;
+  line-height: 25px;
+}
+.text-bottom {
+  color: #e6ffff;
+}
+h2 {
+  margin-top: 5px;
+  color: hsl(179, 62%, 43%);
+}
+.yellow {
+  color: hsl(71, 73%, 54%);
+}
+.white-text {
+  color: white;
+}
+.price {
+  color: #e6ffff;
+}
+.month {
+  color: hsl(204, 43%, 93%);
+  font-size: 16px;
+}
+button {
+  padding: 9px 24px;
+  border: none;
+  background-color: #bedf32;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+button:hover {
+  opacity: 0.8;
 }
