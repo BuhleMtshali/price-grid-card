@@ -6,3 +6,11 @@ body {
   margin-right: auto;
   max-width: 600px;
 }
+.mid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
